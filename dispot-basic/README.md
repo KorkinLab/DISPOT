@@ -4,7 +4,7 @@ DISPOT takes SUPERFAMILY identifiers for both ‘Family’ (fa) or ‘Superfamil
 
 
 ### Python version ###
-
+'''
 usage: dispot.py [-h] [-s] [-m] [-d DOMAINS [DOMAINS ...]] [-i INPUT_FILE]
                  [-o OUTPUT]
 
@@ -34,3 +34,4 @@ optional arguments:
   -n, --mono            Returns monomeric statistical potentials. Input is the
                         same as with the usage of '--max' argument.
 
+'''
