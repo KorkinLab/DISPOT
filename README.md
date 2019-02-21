@@ -37,7 +37,8 @@ optional arguments:
                         directories in the file path should exist.
   -n, --mono            Returns monomeric statistical potentials. Input is the
                         same as with the usage of '--max' argument.
-                        ```
+                       
+```
 
 
 ### Autoextraction Docker Version
