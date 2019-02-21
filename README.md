@@ -8,7 +8,8 @@ It is possible to use Docker versions without downloading rest of the DISPOT cod
 
 dispot-docker.py is a standalone script that would download image from DockerHub. The only dependency it have is Docker. For correct work it requires installed Docker and configured docker group. Information about installing and configuring Docker: https://docs.docker.com/install/. Select your operation system (OS) and proceed with instructions. Usage is the same as for the Python version:
 
-```usage: dispot.py [-h] [-s] [-m] [-d DOMAINS [DOMAINS ...]] [-i INPUT_FILE]
+```
+usage: dispot.py [-h] [-s] [-m] [-d DOMAINS [DOMAINS ...]] [-i INPUT_FILE]
                  [-o OUTPUT]
 
 optional arguments:
@@ -35,7 +36,8 @@ optional arguments:
                         is printed on the console (stdout). Attention - all
                         directories in the file path should exist.
   -n, --mono            Returns monomeric statistical potentials. Input is the
-                        same as with the usage of '--max' argument.```
+                        same as with the usage of '--max' argument.
+                        ```
 
 
 ### Autoextraction Docker Version
